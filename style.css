@@ -142,78 +142,6 @@ body{
     border-bottom-right-radius: 15px;
 }
 
-@media (max-width: 500px){
-    #main{
-        height: 130vh;
-    }
-
-    #card{
-        width:96%;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #img-desktop{
-        display: none;
-    }
-
-    #img-mobile{
-        display:flex;
-        max-width: 100%;
-        mix-blend-mode: multiply;
-        border-top-left-radius: 15px;
-    }
-
-    #img-div{
-        border-bottom-right-radius: 0;
-        border-top-left-radius: 15px;
-    }
-
-    #accent{
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 0;
-        border-top-left-radius: 15px;
-    }
-
-    #content{
-        border-bottom-right-radius: 15px;
-        border-bottom-left-radius: 15px;
-    }
-
-    #block{
-        padding:10%;
-    }
-
-    #block h1{
-        font-size: 24px;
-        text-align: center;
-    }
-
-    #block p{
-        font-size: 12px;
-        text-align: center;
-        line-height: 3rem;
-        letter-spacing: 0.5px;
-    }
-
-    #stats{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: space-between;
-    }
-
-    .stat h2{
-        font-size: 24px;
-        letter-spacing: 0.5px;
-    }
-
-    .stat p{
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-}
-
 @media (max-width: 800px){
     #main{
         height:130vh;
@@ -265,5 +193,77 @@ body{
 
     .stat h2,p{
         text-align:center;
+    }
+}
+
+@media (max-width: 500px){
+    #main{
+        height: 130vh;
+    }
+
+    #card{
+        width:95%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #img-desktop{
+        display: none;
+    }
+
+    #img-mobile{
+        display:flex;
+        max-width: 100%;
+        mix-blend-mode: multiply;
+        border-top-left-radius: 15px;
+    }
+
+    #img-div{
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 15px;
+    }
+
+    #accent{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 15px;
+    }
+
+    #content{
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    #block{
+        padding:10%;
+    }
+
+    #block h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #block p{
+        font-size: 15px;
+        text-align: center;
+        line-height: 3rem;
+        letter-spacing: 0.5px;
+    }
+
+    #stats{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .stat h2{
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+
+    .stat p{
+        font-size: 15px;
+        letter-spacing: 1px;
     }
 }
